@@ -1,5 +1,7 @@
 # AI-Overview-Remover-Replacing-Ai-Definition-with-normal-definitions
 
+NOTE FOR REVIEWERS FROM HC. YES I KNOW YOU CAN'T ADD README AS DEMO URL, BUT I NEED AN GRANT TO PUBLISH THIS, IF YOU WANT TO TEST IT NOW, YOU MUST INSTALL THE FILES, GO TO chrome://extensions/, CLICK LOAD UNPACKED, AND THEN SELECT THE FILES. YOU MIGHT NEED TO ENABLE SOME SETTINGS TO BE ABLE TO LOAD UNPACKED.
+
 
 Do you remember the old google, with the normal definitions and no ai overview? While Ai overview can be usefull, this extension loads the page with the condition of udm=14, which loads a special version of google, that google itself made that has no ai overview. You can still acces gemeni, by clicking the ai tab. 
 
