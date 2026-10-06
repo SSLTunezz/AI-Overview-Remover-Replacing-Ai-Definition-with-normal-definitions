@@ -27,7 +27,7 @@ const word = url.searchParams.get('q')?.replace("definition", "").trim();
                            const p2 = data.entries[0].senses[0].definition;
                            const p3 = data.entries[0].senses[0].examples;
                            const p4 = data.entries[0].partOfSpeech;
-                           const p42 = data.entries[0].quotes ;
+                           const p42 = data.entries[0].quotes  ;
 
 
                            div.innerHTML =  `<div id="Dictionary Box" >
