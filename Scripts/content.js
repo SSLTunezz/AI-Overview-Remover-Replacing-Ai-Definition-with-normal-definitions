@@ -23,10 +23,21 @@ const word = url.searchParams.get('q')?.replace("definition", "").trim();
                    fetch('https://freedictionaryapi.com/api/v1/entries/en/' + word)
                        .then(response => response.json())
                        .then(data => {
-                           const p1 = data.word;
+                           const p1 = data.word
                            const p2 = data.entries[0].senses[0].definition;
                            const p3 = data.entries[0].senses[0].examples;
-                           div.innerText = `Word: ${p1}\nDefinition: ${p2}\nExample: ${p3}`;
+                           const p4 = data.entries[0].partOfSpeech;
+                           const p42 = data.entries[0].quotes ;
+
+
+                           div.innerHTML =  `<div id="Dictionary Box" >
+<p> <a class="word-title"> Dictionary  <a> </a> 
+ Information used from <a href="https://freedictionaryapi.com/"> freedictionaryapi.com </a>
+ <p class="main-word">${p1.charAt(0).toUpperCase() + p1.slice(1)} </p>
+<p class="interjection"> ${p4.charAt(0).toUpperCase()+p4.slice(1)}  </p>
+ Definition: ${p2}
+ </p>
+ </div>`;
                        })
 
                 }
