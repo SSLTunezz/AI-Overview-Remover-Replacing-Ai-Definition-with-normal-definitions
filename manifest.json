@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Ai overview remover + bringing back the old dictionary ",
+  "version": "1.0",
+  "description": "Removes ai overviews and brings back of dictionary",
+  "action": {
+    "default_popup": "hello.html",
+    "default_icon": "smth.png"
+  },
+
+  "icons": {
+
+  },
+  "content_scripts": [
+    {
+      "js": ["Scripts/content.js"],
+      "css": ["Scripts/popup.css"],
+
+      "matches": ["*://www.google.com/*"],
+      "run_at": "document_start"
+    }
+  ]
+}
