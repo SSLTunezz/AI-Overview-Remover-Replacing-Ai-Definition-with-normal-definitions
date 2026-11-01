@@ -1,9 +1,4 @@
-Heyo, you'll need to make a few changes before I approve this. - 
-If you could add the following information to a folder with the following information: * 
-Detailed description
- * Screenshots: 1280×800, at least one and up to five. Required.
- * Single purpose description: what your extension does, in one narrow, focused statement. 
-* Permission justification: one text box for each permission in your manifest, asking why you need it. Broad host permissions like <all_urls> are a common reason for rejection.
+
 
 
 My Extension removes the AI overview and brings back the normal google dictionary.
@@ -20,3 +15,11 @@ Some images with the extension:
 <img width="1440" height="900" alt="Screenshot 2026-11-01 at 14 26 38" src="https://github.com/user-attachments/assets/85768030-8cad-4a93-8601-b541b58f7864" />
 
 <img width="1440" height="900" alt="Screenshot 2026-11-01 at 14 16 33" src="https://github.com/user-attachments/assets/f14af1de-72bb-4a8b-8eae-883050d16f27" />
+
+
+
+Why I need some permissions:
+I need my matches to be google.com, so I know when you are using google, if this matches then the extension injects. 
+
+
+The reason this extension is needed is because, it's clearly seen that the Ai overview has many faults, it often shows wrong information, that people rely on too much, and it's remoivng the aspect of the internet, where you search something up, get info and apply it into your own context. I would aruge aplying into your own context is what makes you learn and get that spoon fed to you won't help you as much or at all. This extension simply sets your url to have udm14 at the end of it which is a google introduced method to not have ai overviews. It's seamless, simple and fast. Ofcourse if you need ai you can always click on the ai mode and get the ai overview you wanted.
